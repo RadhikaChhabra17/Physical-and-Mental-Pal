@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mental_style.css">
+    <link rel="stylesheet" href="css/gym.css" />
+    <link rel="stylesheet" href="css/yoga.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>   
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="cont"> 
+  <div class="slider">
+
+      <div class="box1 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>WALK?</h1>
+              <p style="margin-top: 20px;">
+                  Walking is the exact balance
+                  between spirit and humility ! 
+              </p>
+              <button onclick="window.location.href='#walk_part';">Click here</button>
+          </div>
+
+          <div class="illustration"><div class="inner"></div></div>
+      </div>
+                      
+      
+      <div class="box2 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>YOGA?</h1>
+              <p style="margin-top: 20px;">
+                  Yoga takes you into the present moment.
+                  The only place where life exists. 
+              </p>
+              <button onclick="window.location.href='#main';">Check Now</button>
+          </div>
+
+          <div class="illustration"><div class="inner"></div></div>
+      </div>
+                      
+      <div class="box3 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>GYM?</h1>
+              <p style="margin-top: 20px;">
+                  What hurts today makes you stronger tomorrow.
+              </p>
+              <button onclick="window.location.href='#main-wrapper';">Check Now</button>
+          </div>
+
+          <div class="illustration"><div class="inner"></div></div>
+      </div>
+                      
+      <div class="box4 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Books?</h1>
+              <p style="margin-top: 20px;">
+                 Books are a uniquely portable magic.
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration"><div class="inner"></div></div>
+      </div>
+                      
+      <div class="box5 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Video chat?</h1>
+              <p style="margin-top: 20px;">
+                 Let's make some new friends :) 
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration"><div class="inner"></div></div>
+      </div>
+                      
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+  <div class="trail">
+          <div class="box1 active">1</div>
+          <div class="box2">2</div>
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+          <div class="box5">5</div>
+  </div>
+</div>   
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
+<script src="mental_script.js"></script>
+
+
+
+<div id="main-wrapper" style="top: 100% ; margin-top: 150px; width: auto;">
+    <div class="wrapper style1">
+      <div class="inner">
+  
+        <!-- Feature 1 -->
+          <section class="container box feature1">
+            <div class="row">
+              <div class="col-12">
+                <header class="first major">
+                  <h2 style="color: black; text-align:center; margin: auto;">&nbsp; &nbsp; Let's hit in gym !Gyms near you. </h2>
+                  <p> &nbsp;&nbsp; And this is where we talk about why we’re <strong>pretty awesome</strong> ...</p>
+                </header>
+              </div>
+              <div class="col-4 col-12-medium">
+                <section>
+                  <a href="https://www.google.com/search?q=gym%20near%20me&oq=gym+near+me&aqs=chrome..69i57j0i402l2j0i512l7.2613j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBuR4ugxLcyE2gMVNWVoVujiGuh_OA:1647453249069&rflfq=1&num=10&rldimm=12223668309407226253&lqi=CgtneW0gbmVhciBtZSIDkAEBSN3ykMeHq4CACFoXEAAYACILZ3ltIG5lYXIgbWUqBAgDEACSAQNneW2qAQsQASoHIgNneW0oAA&ved=2ahUKEwijncfNmcv2AhW0T2wGHefmBzkQvS56BAgDEEo&rlst=f#rlfi=hd:;si:12223668309407226253,l,CgtneW0gbmVhciBtZSIDkAEBSN3ykMeHq4CACFoXEAAYACILZ3ltIG5lYXIgbWUqBAgDEACSAQNneW2qAQsQASoHIgNneW0oAA;mv:[[13.101835099999999,74.8913031],[12.8948463,74.78291089999999]]" class="image featured"><img src="gym/gym1.jpg" alt="" /></a>
+                  <header class="second icon solid fa-user">
+                    <h3>Evolution Gym And Fitness</h3>
+                    <p> Bharani Towers, Sasihitlu Rd,<br>
+                        Mukka, Mangaluru, Karnataka 574146</p>
+                  </header>
+                </section>
+              </div>
+              <div class="col-4 col-12-medium">
+                <section>
+                  <a href="https://www.google.com/search?q=gym%20near%20me&oq=gym+near+me&aqs=chrome..69i57j0i402l2j0i512l7.2613j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBuR4ugxLcyE2gMVNWVoVujiGuh_OA:1647453249069&rflfq=1&num=10&rldimm=12223668309407226253&lqi=CgtneW0gbmVhciBtZSIDkAEBSN3ykMeHq4CACFoXEAAYACILZ3ltIG5lYXIgbWUqBAgDEACSAQNneW2qAQsQASoHIgNneW0oAA&ved=2ahUKEwijncfNmcv2AhW0T2wGHefmBzkQvS56BAgDEEo&rlst=f#rlfi=hd:;si:1659064848946873353,l,CgtneW0gbmVhciBtZSIDkAEBSPaVrvnosYCACFobEAAYABgBGAIiC2d5bSBuZWFyIG1lKgQIAxAAkgEDZ3ltqgELEAEqByIDZ3ltKAA;mv:[[13.101835099999999,74.8913031],[12.8948463,74.78291089999999]]" 
+                  class="image featured"><img src="gym/gym2 again.png" alt="" /></a>
+                  <header class="second icon solid fa-user">
+                    <h3>V PLUS FITNESS STUDIO</h3>
+                    <p> 3rd floor Vijaya mahal, Surathkal,
+                        <br> Mangaluru, Karnataka 575014</p>
+                  </header>
+                </section>
+              </div>
+              <div class="col-4 col-12-medium">
+                <section>
+                  <a href="https://www.google.com/search?q=gym%20near%20me&oq=gym+near+me&aqs=chrome..69i57j0i402l2j0i512l7.2613j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBuR4ugxLcyE2gMVNWVoVujiGuh_OA:1647453249069&rflfq=1&num=10&rldimm=12223668309407226253&lqi=CgtneW0gbmVhciBtZSIDkAEBSN3ykMeHq4CACFoXEAAYACILZ3ltIG5lYXIgbWUqBAgDEACSAQNneW2qAQsQASoHIgNneW0oAA&ved=2ahUKEwijncfNmcv2AhW0T2wGHefmBzkQvS56BAgDEEo&rlst=f#rlfi=hd:;si:17576901518372236214,l,CgtneW0gbmVhciBtZSIDkAEBSMrc16jsqoCACFobEAAYABgBGAIiC2d5bSBuZWFyIG1lKgQIAxAAkgEDZ3ltqgELEAEqByIDZ3ltKAA;mv:[[13.101835099999999,74.8913031],[12.8948463,74.78291089999999]]" 
+                  class="image featured"><img src="gym/gym3 again.png" alt="" /></a>
+                  <header class="second icon solid fa-user">
+                    <h3>Power Zone Fitness Club</h3>
+                    <p>Haleyangadi N.H, Main Rd,
+                        <br> Mangaluru, Karnataka 574154</p>
+                  </header>
+                </section>
+              </div>
+              <div class="col-12">
+                <p>You’re going to have to let it hurt. Let it suck. The harder you work, the better you will look.
+                    <br> Your appearance isn’t parallel to how heavy you lift, it’s parallel to how hard you work.</p>
+              </div>
+            </div>
+          </section>
+  
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="walk_part" >
+  <br>
+  <br>
+  <br>
+  <div class="walk">
+      <h1 style="color: white; "> Answer to find companion for walk. </h1>
+  </div>
+<div class="top_box"> 
+   <div class="front_box_left"  >
+  <div  style="margin-top: 40px; ">
+  <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Duration for your walk.</h1>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> 30 minutes </button>
+  <br>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> 1 hour </button>
+  <br>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Greater than 1hr </button>
+  </div>
+</div>
+
+ <br>
+ <br>
+ <br>
+ <div class="front_box_right"  >
+  <div  style="margin-top: 40px;">
+  <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> How much kms you want to walk?</h1>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Less than 1km</button>
+  <br>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> 2-3 kms </button>
+  <br>
+  <br>
+  <br>
+  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Greater than 3kms </button>
+  </div>
+ </div>
+</div>
+  <br>
+  <br>
+  <br>
+  <div class="top_box">
+   <div class="front_box_left"  >
+    <div  style="margin-top: 50px; " >
+    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Any gender preferences. </h1>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Yes </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> No </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Sometimes </button>
+    </div>
+   </div>
+  <br>
+  <br>
+  <br>
+  <div class="front_box_right" >
+    <div  style="margin-top: 50px; ">
+    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; ">Most comfortable with which gender.</h1>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Male </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Female</button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Any </button>
+    </div>
+  </div>
+</div>
+    <br>
+  <br>
+  <br>
+  <div class="top_box">
+  <div class="front_box_left" >
+    <div  style="margin-top: 50px; ">
+    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Ideal loaction for walk?</h1>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Parks </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Road</button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Anywhere </button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="front_box_right" >
+    <div  style="margin-top: 50px; ">
+    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Which Time you prefer?</h1>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Morning </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Evening </button>
+    <br>
+    <br>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 1%; margin-left: 90px;"> Night </button>
+    </div>
+  </div>
+</div>
+</div> 
+<div> <button style="margin-top: 100px; left: 10% ; margin-left: 510px; padding: 0%; height: 60px; width: 200px; background-color: #fd4bd0d7;">Search</button></div>
+</div>
+            
+</div>
+
+</div>
+
+<div id="wrapper" style="margin-top: 50px;">
+  <div id="main">
+    
+    <section id="two" class="spotlights">
+      <h2 style="background-color: rgba(222, 184, 135, 0.61) ; text-align: center; margin: 0%;"> Yoga centres near me!</h2>
+
+      <section style="background-color: rgba(222, 184, 135, 0.61);">
+        
+        <a href="https://leafyogavillage.com/prenatal-yoga/" class="image">
+          <img src="gym/yoga-group-classes-inside-gym.jpg" alt="" data-position="center center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major">
+              <h3>Prenatal Yoga Classes</h3>
+            </header>
+            <p> WVQ4+835, Mannagudda, Ranipura Ulliya, Konchady, Mangaluru, Karnataka 575013
+              <br>
+               Your physical body to your emotional state, prenatal yoga is a key ingredient to a healthy, happy pregnancy.
+              </p>
+            <ul class="actions">
+              <li><a href="https://leafyogavillage.com/prenatal-yoga/" class="button_yoga">Learn more</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: burlywood;">
+        <a href="https://www.google.com/search?q=yoga%20centres%20me&oq=yoga+centres+me&aqs=chrome..69i57j0i512l9.5533j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBtJhCCK9cMBVWqD18gMIh4OBV9Rbw:1647491101692&rflfq=1&num=10&rldimm=9179832637560905143&lqi=Cg95b2dhIGNlbnRyZXMgbWWSAQt5b2dhX3N0dWRpb6oBFxABKhMiD3lvZ2EgY2VudHJlcyBtZSgA&ved=2ahUKEwjd94vPpsz2AhVMa94KHfjcAAkQvS56BAgDEFY&rlst=f#rlfi=hd:;si:13305485862364033595,l,Cg95b2dhIGNlbnRyZXMgbWVIzOikhLuugIAIWhkQABABEAIYACIPeW9nYSBjZW50cmVzIG1lkgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJuZURWSVRXUm5FQUWqARcQASoTIg95b2dhIGNlbnRyZXMgbWUoAA;mv:[[13.0239265,74.889344],[12.859458199999999,74.7841132]]" class="image">
+          <img src="gym/group-young-people-sitting-sukhasana.jpg" alt="" data-position="top center" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major">
+              <h3>Yoga Kshema</h3>
+            </header>
+            <p> Netravathy Nagar, Mangaluru, Karnataka 575007
+              <br>
+              Calming the mind is yoga. Not just standing on the head.
+            </p>
+            <ul class="actions">
+              <li><a href="https://www.google.com/search?q=yoga%20centres%20me&oq=yoga+centres+me&aqs=chrome..69i57j0i512l9.5533j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBtJhCCK9cMBVWqD18gMIh4OBV9Rbw:1647491101692&rflfq=1&num=10&rldimm=9179832637560905143&lqi=Cg95b2dhIGNlbnRyZXMgbWWSAQt5b2dhX3N0dWRpb6oBFxABKhMiD3lvZ2EgY2VudHJlcyBtZSgA&ved=2ahUKEwjd94vPpsz2AhVMa94KHfjcAAkQvS56BAgDEFY&rlst=f#rlfi=hd:;si:13305485862364033595,l,Cg95b2dhIGNlbnRyZXMgbWVIzOikhLuugIAIWhkQABABEAIYACIPeW9nYSBjZW50cmVzIG1lkgEDZ3ltmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJuZURWSVRXUm5FQUWqARcQASoTIg95b2dhIGNlbnRyZXMgbWUoAA;mv:[[13.0239265,74.889344],[12.859458199999999,74.7841132]]" 
+                class="button_yoga">Learn more</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: rgba(222, 184, 135, 0.87);">
+        <a href="https://www.google.com/search?q=yoga%20centres%20me&oq=yoga+centres+me&aqs=chrome..69i57j0i512l9.5533j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBtJhCCK9cMBVWqD18gMIh4OBV9Rbw:1647491101692&rflfq=1&num=10&rldimm=9179832637560905143&lqi=Cg95b2dhIGNlbnRyZXMgbWWSAQt5b2dhX3N0dWRpb6oBFxABKhMiD3lvZ2EgY2VudHJlcyBtZSgA&ved=2ahUKEwjd94vPpsz2AhVMa94KHfjcAAkQvS56BAgDEFY&rlst=f#rlfi=hd:;si:9462955895656614976,l,Cg95b2dhIGNlbnRyZXMgbWWSAQ95b2dhX2luc3RydWN0b3KqARcQASoTIg95b2dhIGNlbnRyZXMgbWUoAA;mv:[[13.0239265,74.889344],[12.859458199999999,74.7841132]]" class="image">
+          <img src="gym/woman-meditating-lotus-position.jpg" alt="" data-position="25% 25%" />
+        </a>
+        <div class="content">
+          <div class="inner">
+            <header class="major">
+              <h3>ShriSannidhi, Art of living yoga center</h3>
+            </header>
+            <p> Art of living yoga center, 5-3-130/14,SriSannidhi, 2nd floor, opp. Central Warehouse, Lalbagh, Mangaluru, Karnataka 575003
+              <br>
+              The attitude of gratitude is the highest yoga.
+            </p>
+            <ul class="actions">
+              <li><a href="https://www.google.com/search?q=yoga%20centres%20me&oq=yoga+centres+me&aqs=chrome..69i57j0i512l9.5533j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=APq-WBtJhCCK9cMBVWqD18gMIh4OBV9Rbw:1647491101692&rflfq=1&num=10&rldimm=9179832637560905143&lqi=Cg95b2dhIGNlbnRyZXMgbWWSAQt5b2dhX3N0dWRpb6oBFxABKhMiD3lvZ2EgY2VudHJlcyBtZSgA&ved=2ahUKEwjd94vPpsz2AhVMa94KHfjcAAkQvS56BAgDEFY&rlst=f#rlfi=hd:;si:9462955895656614976,l,Cg95b2dhIGNlbnRyZXMgbWWSAQ95b2dhX2luc3RydWN0b3KqARcQASoTIg95b2dhIGNlbnRyZXMgbWUoAA;mv:[[13.0239265,74.889344],[12.859458199999999,74.7841132]]" 
+                class="button_yoga">Learn more</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+ 
+
+</div>
+  </div>
+</div>
+
+</body>
