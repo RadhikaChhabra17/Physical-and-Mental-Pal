@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Contact Us Form</title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <!-- <i class="fas fa-map-marker-alt"></i> -->
+          <div class="topic">Address</div>
+          <div class="text-one">NITK Surathkal</div>
+          <div class="text-two">Manglore, Karnataka</div>
+        </div>
+        <div class="phone details">
+          <!-- <i class="fas fa-phone-alt"></i> -->
+          <div class="topic">Phone</div>
+          <div class="text-one">+91 6261838895</div>
+          <div class="text-two">+91 9817896960</div>
+        </div>
+        <div class="email details">
+          <!-- <i class="fas fa-envelope"></i> -->
+          <div class="topic">Email</div>
+          <div class="text-one">vanshikajolly@gmail.com</div>
+          <div class="text-two">vaibhavhapani@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any queries reagrding our services , you can send us message from here. It's our pleasure to help you , will try to reach asap.</p>
+      <form action="#" class="form-group" id="postData" name="contact-form" >
+        <input type="text" name="name" id="postName" class="input-box" placeholder="Enter your name">
+        <input type="text" name="email"id="postEmail" class="input-box" placeholder="Enter your email">
+        <input type="text" name="message" id="postMessage" class="input-box" placeholder="Enter your message">
+        <button class="btn btn-dark" type="submit" onclick="func()">Submit</button>
+
+      </form>
+    </div>
+    <div id="postResponse"></div> 
+    </div>
+    <script src="./script.js"></script>
+  </div>
+</body>
+</html>
