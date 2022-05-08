@@ -16,7 +16,7 @@
     <div class="cont"> 
   <div class="slider">
 
-      <div class="box1 box">
+      <div class="box1 box" id="box1">
           <div class="bg"></div>
           <div class="details">
               <h1>WALK?</h1>
@@ -169,131 +169,30 @@
   <div class="walk">
       <h1 style="color: white; "> Answer to find companion for walk. </h1>
   </div>
-<div class="top_box"> 
-   <div class="front_box_left"  >
-  <div  style="margin-top: 40px; ">
-  <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Duration for your walk.</h1>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> 30 minutes </button>
-  <br>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> 1 hour </button>
-  <br>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Greater than 1hr </button>
-  </div>
-</div>
+  
+  <form id="walkData">
+    <div class="walk" id="username">
+      <label for="uname">username<span>*</span></label>
+      <input id="uname" name="uname" type="text" name="uname" />
+    </div>
+    <div class="walk" id="duration">
+      <label for="q1">  Duration for your walk<span>*</span></label>
+      <input id="q1" name="q1" type="text" name="q1" />
+    </div>
+    <div class="walk" id="distance">
+      <label for="q2">How many Kms you want to walk?<span>*</span></label>
+      <input id="q2" name="q2" type="text" name="q2" />
+    </div>
+    <div class="walk" id="time">
+      <label for="q3">Which Time you prefer?<span>*</span></label>
+      <input id="q3" name="q3" type="text" name="q3" />
+    </div>
+    <br>
+    <div class="walk">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
 
- <br>
- <br>
- <br>
- <div class="front_box_right"  >
-  <div  style="margin-top: 40px;">
-  <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> How much kms you want to walk?</h1>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Less than 1km</button>
-  <br>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> 2-3 kms </button>
-  <br>
-  <br>
-  <br>
-  <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Greater than 3kms </button>
-  </div>
- </div>
-</div>
-  <br>
-  <br>
-  <br>
-  <div class="top_box">
-   <div class="front_box_left"  >
-    <div  style="margin-top: 50px; " >
-    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Any gender preferences. </h1>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Yes </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> No </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Sometimes </button>
-    </div>
-   </div>
-  <br>
-  <br>
-  <br>
-  <div class="front_box_right" >
-    <div  style="margin-top: 50px; ">
-    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; ">Most comfortable with which gender.</h1>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Male </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Female</button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Any </button>
-    </div>
-  </div>
-</div>
-    <br>
-  <br>
-  <br>
-  <div class="top_box">
-  <div class="front_box_left" >
-    <div  style="margin-top: 50px; ">
-    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Ideal loaction for walk?</h1>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Parks </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Road</button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Anywhere </button>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <div class="front_box_right" >
-    <div  style="margin-top: 50px; ">
-    <h1 style="text-align: center; color: white; margin: auto; font-size: 20px; "> Which Time you prefer?</h1>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 0%; margin-left: 90px;"> Morning </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px; padding: 0%; margin-left: 90px;"> Evening </button>
-    <br>
-    <br>
-    <br>
-    <button class="glow-on-hover" type="button" style="font-size: 20px;  padding: 1%; margin-left: 90px;"> Night </button>
-    </div>
-  </div>
-</div>
-</div> 
-<div> <button style="margin-top: 100px; left: 10% ; margin-left: 510px; padding: 0%; height: 60px; width: 200px; background-color: #fd4bd0d7;">Search</button></div>
-</div>
-            
-</div>
-
-</div>
 
 <div id="wrapper" style="margin-top: 50px;">
   <div id="main">
@@ -369,4 +268,5 @@
   </div>
 </div>
 
+<script src="./walk.js"></script>
 </body>
